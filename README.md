@@ -1,3 +1,3 @@
-# Tree Dataset of Urban Street: Flower
+# Tree Dataset of Urban Street: Flower Classification
 
-Urban Street: Flower is a dataset for classification task.
+Urban Street: Flower Classification is a dataset for classification task.
