@@ -31,7 +31,7 @@ RELEASE_DATE: Optional[str] = "2022-09-24"  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = None
 
-HOMEPAGE_URL: str = "https://ytt917251944.github.io/dataset_jekyll/"
+HOMEPAGE_URL: str = "https://www.kaggle.com/datasets/erickendric/tree-dataset-of-urban-street-classification-flower"
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 7026609
@@ -43,7 +43,9 @@ GITHUB_URL: str = "https://github.com/dataset-ninja/urban-street-flower"
 ##################################
 ### * Optional after uploading ###
 ##################################
-DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = ["https://www.kaggle.com/datasets/erickendric/tree-dataset-of-urban-street-classification-flower"]
+DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = [
+    "https://www.kaggle.com/datasets/erickendric/tree-dataset-of-urban-street-classification-flower"
+]
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
@@ -51,18 +53,51 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
-PAPER: Optional[Union[str, List[str], Dict[str, str]]] = ["https://www.sciencedirect.com/science/article/abs/pii/S0168169923002405?via%3Dihub"]
-BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https://github.com/ytt917251944/dataset_jekyll"}
+PAPER: Optional[Union[str, List[str], Dict[str, str]]] = [
+    "https://www.sciencedirect.com/science/article/abs/pii/S0168169923002405?via%3Dihub"
+]
+BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = ["https://ytt917251944.github.io/dataset_jekyll/"]
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {
+    "GitHub": "https://github.com/ytt917251944/dataset_jekyll"
+}
 
 CITATION_URL: Optional[str] = None
-AUTHORS: Optional[List[str]] = ["Tingting Yang", "Suyin Zhou", "Zhijie Huang", "Aijun Xu", "Junhua Ye", "Jianxin Yin"]
+AUTHORS: Optional[List[str]] = [
+    "Tingting Yang",
+    "Suyin Zhou",
+    "Zhijie Huang",
+    "Aijun Xu",
+    "Junhua Ye",
+    "Jianxin Yin",
+]
 
-ORGANIZATION_NAME: Optional[Union[str, List[str]]] = ["Zhejiang Agriculture and Forestry University"]
+ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
+    "Zhejiang Agriculture and Forestry University"
+]
 ORGANIZATION_URL: Optional[Union[str, List[str]]] = ["https://www.zafu.edu.cn/"]
 
 # Set '__PRETEXT__' or '__POSTTEXT__' as a key with string value to add custom text. e.g. SLYTAGSPLIT = {'__POSTTEXT__':'some text}
-SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {"__POSTTEXT__":"The dataset includes ***classification_tag***"}
+SLYTAGSPLIT: Optional[Dict[str, Union[List[str], str]]] = {
+    "classification set classes": [
+        "aesculus_chinensis",
+        "albizia_julibrissin",
+        "camptotheca_acuminata",
+        "flowering_cherry",
+        "koelreuteria_paniculata",
+        "lagerstroemia_indica",
+        "liriodendron_chinense",
+        "loropetalum_chinense_var._rubrum",
+        "magnolia_liliflora_desr",
+        "malushalliana",
+        "nandina_domestica",
+        "nerium_oleander_l",
+        "osmanthus_fragrans",
+        "photinia_serratifolia",
+        "prunus_persica",
+        "rhododendron_pulchrum",
+        "styphnolobium_japonicum",
+    ],
+}
 TAGS: Optional[List[str]] = None
 
 
@@ -76,7 +111,9 @@ SECTION_EXPLORE_CUSTOM_DATASETS: Optional[List[str]] = None
 def check_names():
     fields_before_upload = [PROJECT_NAME]  # PROJECT_NAME_FULL
     if any([field is None for field in fields_before_upload]):
-        raise ValueError("Please fill all fields in settings.py before uploading to instance.")
+        raise ValueError(
+            "Please fill all fields in settings.py before uploading to instance."
+        )
 
 
 def get_settings():
@@ -100,7 +137,9 @@ def get_settings():
     }
 
     if any([field is None for field in settings.values()]):
-        raise ValueError("Please fill all fields in settings.py after uploading to instance.")
+        raise ValueError(
+            "Please fill all fields in settings.py after uploading to instance."
+        )
 
     settings["release_date"] = RELEASE_DATE
     settings["download_original_url"] = DOWNLOAD_ORIGINAL_URL
