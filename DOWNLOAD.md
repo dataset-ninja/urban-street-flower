@@ -1,6 +1,6 @@
 Dataset **Urban Street: Flower Classification** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](Set 'HIDE_DATASET=False' to generate download link)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/k/3/P4/g9hiOwLFjAV1ejpLz4jYTsYCqhe2nWt8fdT8qCESUSQfh20CWT28jpDsH3JW7lEQAJuTTrMwusnSQiaiwk7TcZrSpjjZcQyUiop8V4Rarbhp0VrV2FYrz1uRdLNE.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
