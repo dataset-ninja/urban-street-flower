@@ -2,4 +2,6 @@
 
 The dataset consists of 2275 images with 0 labeled objects belonging to 0 classes. There are 3 splits in the dataset: *train* (1828 images), *val* (228 images), and *test* (219 images). Alternatively, the dataset could be split into 17 classification image sets: ***osmanthus_fragrans*** (182 images), ***styphnolobium_japonicum*** (174 images), ***aesculus_chinensis*** (172 images), ***albizia_julibrissin*** (169 images), ***camptotheca_acuminata*** (168 images), ***lagerstroemia_indica*** (167 images), ***koelreuteria_paniculata*** (150 images), ***nerium_oleander_l*** (146 images), ***prunus_persica*** (139 images), ***flowering_cherry*** (126 images), ***rhododendron_pulchrum*** (119 images), ***photinia_serratifolia*** (116 images), ***malushalliana*** (109 images), ***loropetalum_chinense_var._rubrum*** (105 images), ***magnolia_liliflora_desr*** (87 images), ***liriodendron_chinense*** (74 images), and ***nandina_domestica*** (72 images). The dataset was released in 2022 by the Zhejiang Agriculture and Forestry University.
 
-<img src="https://github.com/dataset-ninja/urban-street-flower/raw/main/visualizations/poster.png">
+Here are the visualized examples for the classes:
+
+[Dataset classes](https://github.com/dataset-ninja/urban-street-flower/raw/main/visualizations/classes_preview.webm)
