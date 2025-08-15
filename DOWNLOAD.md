@@ -1,6 +1,6 @@
 Dataset **Urban Street: Flower Classification** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzI3NjBfVXJiYW4gU3RyZWV0OiBGbG93ZXIgQ2xhc3NpZmljYXRpb24vdXJiYW4tc3RyZWV0Oi1mbG93ZXItY2xhc3NpZmljYXRpb24tRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiNnFXbzhvMktkdDJiajZTVlNMaG4wbTJqVWowZW5nMXl3NS81bjJFaWlzOD0ifQ==)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogInMzOi8vc3VwZXJ2aXNlbHktZGF0YXNldHMvMjc2MF9VcmJhbiBTdHJlZXQ6IEZsb3dlciBDbGFzc2lmaWNhdGlvbi91cmJhbi1zdHJlZXQ6LWZsb3dlci1jbGFzc2lmaWNhdGlvbi1EYXRhc2V0TmluamEudGFyIiwgInNpZyI6ICJrcVdXLzRjRmhXYXhiMDZSSHU2MXE3TGs2ZHZPR3VmUHBZREEzcG43L2F3PSJ9?response-content-disposition=attachment%3B%20filename%3D%22urban-street%3A-flower-classification-DatasetNinja.tar%22)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
